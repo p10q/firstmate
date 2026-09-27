@@ -1,0 +1,4 @@
+### Scenario: fallback refusal when Cairn markers present but instance unverifiable
+detect: returned nonzero — cannot verify Cairn, no false auto-select
+name: refused with exit 1
+stderr: error: Cairn runtime markers are present but this app instance and workspace could not be verified; refusing backend fallback
